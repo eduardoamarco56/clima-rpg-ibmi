@@ -159,9 +159,53 @@ Eduardo Amarco
 
 ## 📸 Demo
 
-![Clima App Demo](https://via.placeholder.com/800x600?text=Clima+App+Demo)
+### Vista de la aplicación
 
-*Captura de pantalla de la aplicación mostrando el clima de Madrid*
+> **Nota:** Para agregar tus propias capturas de pantalla, colócalas en `docs/screenshots/` y actualiza las rutas a continuación.
+
+#### Página principal
+![Página Principal](docs/screenshots/home.png)
+*Formulario de búsqueda de clima por ciudad*
+
+#### Resultado de búsqueda
+![Resultado de Búsqueda](docs/screenshots/search-result.png)
+*Información detallada del clima de una ciudad*
+
+#### Vista móvil
+![Vista Móvil](docs/screenshots/mobile-view.png)
+*Diseño responsive para dispositivos móviles*
+
+### 🎥 Cómo tomar capturas de pantalla
+
+1. **Ejecuta la aplicación** en tu navegador:
+   ```
+   http://tu-servidor:puerto/pub/CLIMAREAL.net?ciudad=Madrid
+   ```
+
+2. **Toma capturas de pantalla:**
+   - Windows: `Win + Shift + S`
+   - Mac: `Cmd + Shift + 4`
+   - Linux: `PrtScn` o herramienta de captura
+
+3. **Guarda las imágenes** en `docs/screenshots/`:
+   - `home.png` - Página principal con formulario
+   - `search-result.png` - Resultado mostrando datos del clima
+   - `mobile-view.png` - Vista en dispositivo móvil (opcional)
+
+4. **Actualiza el repositorio:**
+   ```bash
+   git add docs/screenshots/
+   git commit -m "Add screenshots"
+   git push
+   ```
+
+### 🌐 Demo en vivo
+
+Si tienes tu aplicación desplegada en un servidor público, agrega el link aquí:
+
+```
+🔗 Demo: http://tu-servidor:puerto/pub/CLIMAREAL.net?ciudad=Madrid
+```
 
 ---
 
